@@ -8,7 +8,8 @@ for user registration and authentication. Guestlook supports Create/Read/Update/
 To test it on your own computer:
 
 - Add your mongodb uri in .env file in the server directory.
-- Run **npm install**
+- Run **npm install** inside server directory to install server's depenedencies.
+- Run **npm install** inside root directory to install client's depenedencies
 - Go to the server directory; It holds code for Server side. Run **npm run dev**
 - In the root directory; It holds code for Client side. Run **npm run dev**
 
